@@ -89,11 +89,7 @@ export default function Home(): ReactNode {
       <section className="container margin-top--lg text--center">
         <Heading as="h1">How can we help you?</Heading>
 
-        <div
-          style={{
-            maxWidth: '600px',
-            margin: '30px auto',
-          }}>
+        <div className="homepage-search-bar">
           <SearchBar />
         </div>
       </section>

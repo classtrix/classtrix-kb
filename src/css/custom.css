@@ -28,3 +28,42 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.homepage-search-bar {
+  width: 80%;
+  max-width: 960px;
+  margin: 30px auto;
+}
+
+.homepage-search-bar,
+.homepage-search-bar > div,
+.homepage-search-bar .navbar__search,
+.homepage-search-bar [class*='searchBarContainer'],
+.homepage-search-bar [class*='searchBar'] {
+  width: 100% !important;
+  max-width: none !important;
+  display: block;
+}
+
+.homepage-search-bar [class*='searchBarContainer'] {
+  margin-left: 0 !important;
+}
+
+.homepage-search-bar .navbar__search-input,
+.homepage-search-bar .navbar__search-input:not(:focus),
+.homepage-search-bar .navbar__search-input:hover,
+.homepage-search-bar .navbar__search-input:focus,
+.homepage-search-bar .navbar__search-input:active {
+  width: 100% !important;
+  max-width: none;
+  min-height: 3rem;
+  font-size: 1rem;
+  display: block;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 996px) {
+  .homepage-search-bar {
+    width: 100%;
+  }
+}
