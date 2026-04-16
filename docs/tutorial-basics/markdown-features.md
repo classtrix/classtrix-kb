@@ -23,7 +23,7 @@ slug: /my-custom-url
 Markdown content
 ```
 
-## Headings {/* #my-heading-id */}
+## Headings {/_ #my-heading-id _/}
 
 Markdown headings are supported using the standard “#” syntax and are automatically added to the table of contents. The number of `#` corresponds to the heading level.
 
@@ -33,7 +33,7 @@ Markdown headings are supported using the standard “#” syntax and are automa
 My text
 ```
 
-### Heading Ids {/* #my-custom-id */}
+### Heading Ids {/_ #my-custom-id _/}
 
 Add `{/* #my-custom-id */}` after the heading text to assign it an explicit anchor id, used for linking.
 
@@ -50,10 +50,10 @@ Let's see how to [Create a page](/create-a-page).
 ```
 
 ```md
-Let's see how to [Create a page](./create-a-page.mdx).
+Let's see how to [Create a page](./create-a-page.md).
 ```
 
-**Result:** Let's see how to [Create a page](./create-a-page.mdx).
+**Result:** Let's see how to [Create a page](./create-a-page.md).
 
 ## Images
 
@@ -148,19 +148,19 @@ This is <Highlight color="#1877F2">Facebook blue</Highlight> !
 ```
 
 export const Highlight = ({children, color}) => (
-  <span
-    style={{
+<span
+style={{
       backgroundColor: color,
       borderRadius: '20px',
       color: '#fff',
       padding: '10px',
       cursor: 'pointer',
     }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`);
-    }}>
-    {children}
-  </span>
+onClick={() => {
+alert(`You clicked the color ${color} with label ${children}`);
+}}>
+{children}
+</span>
 );
 
 This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
