@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Classtrix Knowledge Base',
-  tagline: 'Documentation for Classtrix CRM',
+  tagline: 'Help center and user guides for Classtrix CRM',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
