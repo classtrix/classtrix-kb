@@ -23,7 +23,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'classtrix', // Usually your GitHub org/user name.
-  projectName: 'kb', // Usually your repo name.
+  projectName: 'classtrix-kb', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
 
