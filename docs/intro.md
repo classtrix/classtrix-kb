@@ -2,46 +2,61 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Classtrix Knowledge Base
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Purpose
+
+This quick start page helps your team begin using Classtrix with confidence. Use it when you want a simple starting point for daily work such as logging in, checking your dashboard, creating leads, recording payments, and scheduling lectures.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+- Login to the system
+- Understand the dashboard
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Common Tasks
 
-### What you'll need
+- Create a lead
+- Record a payment
+- Schedule a lecture
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Modules Overview
 
-## Generate a new site
+- Leads
+- Admissions
+- Batches
+- Exams
+- Finance
+- Reports
 
-Generate a new Docusaurus site using the **classic template**.
+## Quick Start Steps
 
-The classic template will automatically be added to your project after you run the command:
+### Step 1
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Open Classtrix in your browser and sign in with your office login details.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Step 2
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Review the dashboard to see new enquiries, pending follow-ups, today’s lectures, and recent payment activity.
 
-## Start your site
+### Step 3
 
-Run the development server:
+Start with your main daily task, such as adding a new lead, updating an admission, or collecting a fee payment.
 
-```bash
-cd my-website
-npm run start
-```
+### Step 4
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Use the left-side menu to move between modules and keep your records updated throughout the day.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## Screenshot
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+![Screenshot](/img/getting-started/quick-start.png)
+
+## Need Help
+
+Contact Support  
+[support@classtrix.com](mailto:support@classtrix.com)
+
+## Tips
+
+- Use the sidebar to open guides for the exact task you are working on.
+- Ask your branch administrator if you do not see a menu option mentioned in a guide.
+- Keep student, fee, and batch records updated on the same day to avoid pending work.
