@@ -85,10 +85,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Classtrix User Guide',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Classtrix Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -98,11 +98,11 @@ const config: Config = {
           label: 'Tutorial',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
-        {
-          href: 'https://github.com/classtrix-kb',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {
+        //   href: 'https://github.com/classtrix-kb',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -121,16 +121,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/classtrix',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'YouTube',
+              href: 'https://www.youtube.com/@ClasstrixCRM',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/classtrix/',
             },
           ],
         },
@@ -148,7 +148,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Classtrix`,
     },
     prism: {
       theme: prismThemes.github,
