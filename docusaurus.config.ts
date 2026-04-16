@@ -85,7 +85,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Classtrix User Guide',
+      title: '',
       logo: {
         alt: 'Classtrix Logo',
         src: 'img/logo.png',
